@@ -1,0 +1,4 @@
+{
+  "if": { "allOf": [{ "field": "tags[Owner]", "exists": "false" }] },
+  "then": { "effect": "Deny" }
+}

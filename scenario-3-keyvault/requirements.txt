@@ -1,0 +1,4 @@
+flask
+gunicorn
+azure-keyvault-secrets
+azure-identity

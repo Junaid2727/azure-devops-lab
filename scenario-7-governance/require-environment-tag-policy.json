@@ -1,0 +1,4 @@
+{
+  "if": { "allOf": [{ "field": "tags[Environment]", "exists": "false" }] },
+  "then": { "effect": "Audit" }
+}

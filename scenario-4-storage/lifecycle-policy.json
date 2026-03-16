@@ -1,0 +1,17 @@
+{
+  "rules": [{
+    "name": "move-old-invoices",
+    "enabled": true,
+    "type": "Lifecycle",
+    "definition": {
+      "filters": { "blobTypes": ["blockBlob"], "prefixMatch": ["invoices/"] },
+      "actions": {
+        "baseBlob": {
+          "tierToCool": { "daysAfterModificationGreaterThan": 30 },
+          "tierToArchive": { "daysAfterModificationGreaterThan": 90 },
+          "delete": { "daysAfterModificationGreaterThan": 365 }
+        }
+      }
+    }
+  }]
+}
