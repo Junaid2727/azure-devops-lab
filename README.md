@@ -6,7 +6,7 @@
 
 ## 👨‍💻 About This Repository
 
-This repository contains hands-on Azure labs I built while preparing for a **DevOps / Cloud Engineer interview**. Each scenario solves a real-world problem using Azure services — exactly the type of questions asked in interviews at the 2+ years experience level.
+This repository contains hands-on Azure labs I built while preparing for a **DevOps / Cloud Engineer interview**. Each scenario solves a real-world problem using Azure services — exactly the type of questions asked in interviews.
 
 All labs were tested on an **Azure free trial account ($100 credits)**. Total cost for all 8 scenarios is approximately **$10-15** if resources are deleted after each lab.
 
